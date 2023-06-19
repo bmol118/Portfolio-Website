@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'fira-mono';
+    src: url('assets/fira-mono/FiraMono-Regular.ttf');
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9c9b9b;
+    height: 7vh;
+    padding-left: 2%;
+    /* Generated with -> https://cssgenerator.org/box-shadow-css-generator.html */
+    box-shadow: 0px 7px 4px 0px rgba(133, 133, 133, 0.67);
+    -webkit-box-shadow: 0px 7px 4px 0px rgba(133, 133, 133, 0.67);
+}
+
+body {
+    /* Override Inherit margin & padding */
+    margin: 0px;
+    padding: 0px;
+    height: inherit;
+    align-content: center;
+    background: rgb(149, 149, 149);
+    background: linear-gradient(90deg, rgba(149, 149, 149, 1) 0%, rgba(113, 113, 113, 1) 100%);
+}
+
+main {
+    width: 100vw;
+    text-align: center;
+}
+
+html {
+    font: 1em 'fira-mono';
+    height: 100vh;
+}
+
+/*Not purple, not underlined*/
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+
+    color: inherit;
+}
+
+i {
+    padding-right: 3px;
+}
+
+.container {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-child {
+    padding: 0px 5px 0px 5px;
+}
+
+.flex-align-center {
+    justify-content: center;
+}
+
+.flex-align-start {
+    justify-content: start;
+}
+
+.ph5 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.pe10 {
+    padding-right: 10px;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.uline {
+    text-decoration: underline;
+}
+
+.text-align-start {
+    text-align: start;
+}
+
+li {
+    display: list-item;
+    list-style-type: "~$";
+    padding-inline-start: 1ch;
+}
+
+li::marker {
+    color: green;
+}
