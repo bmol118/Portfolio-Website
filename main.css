@@ -105,3 +105,17 @@ li {
 li::marker {
     color: green;
 }
+
+@media screen and (max-width: 600px) {
+    .sm-flex-row {
+        flex-direction: row;
+    }
+
+    .sm-flex-col {
+        flex-direction: column;
+    }
+
+    header {
+        height: auto;
+    }
+}
